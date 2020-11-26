@@ -1,0 +1,11 @@
+@media (min-width: 500px) {
+  .container {
+    max-width: 500px;
+    max-height: 0%;
+    background-color: #dcdcdc;
+  }
+}
+.form-control {
+  max-width: 100%;
+  box-sizing: border-box;
+}
