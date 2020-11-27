@@ -1,0 +1,48 @@
+.btn-primary {
+  border-radius: 30px;
+  background-color: #2ce880;
+  box-sizing: border-box;
+  width: 25%;
+  height: 40px;
+  font-size: small;
+  font-weight: bold;
+  border-color: ivory;
+}
+.btn-success {
+  border-radius: 30px;
+  background-color: #c9e7da;
+  margin-left: 5%;
+  border-color: ivory;
+  box-sizing: border-box;
+  width: 25%;
+  height: 40px;
+  font-size: small;
+  font-weight: bold;
+  color: #1ca666;
+}
+.btn-dark {
+  border-radius: 30px;
+  color: #1ca666;
+  background-color: #c9e7da;
+  border-color: ivory;
+  font-weight: bold;
+  font-size: small;
+  width: 25%;
+  height: 40px;
+}
+.btn-light {
+  border-radius: 20px;
+  margin-bottom: 15px;
+  margin-left: 5%;
+  border-color: ivory;
+}
+p {
+  margin-top: 20px;
+}
+.container {
+  margin-top: 70px;
+  margin-right: 30%;
+}
+h1 {
+  font-weight: lighter;
+}
