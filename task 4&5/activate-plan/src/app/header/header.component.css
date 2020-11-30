@@ -1,0 +1,23 @@
+.fixed-top {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  background-color: #24a0ed;
+}
+p {
+  margin-left: 20%;
+  color: white;
+}
+.btn-light {
+  border-radius: 40px;
+  width: 12%;
+  margin-top: 6px;
+  margin-left: 24px;
+  color: #24a0ed;
+}
+img {
+  float: left;
+  margin-left: 17%;
+  margin-top: 10px;
+  max-width: 2%;
+}

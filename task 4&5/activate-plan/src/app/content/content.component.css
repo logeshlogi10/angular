@@ -1,0 +1,36 @@
+.container {
+  margin-top: 4%;
+}
+h4 {
+  font-size: large;
+}
+h5 {
+  margin-left: 15%;
+}
+ul {
+  list-style: none;
+  margin-left: 15%;
+  position: relative;
+}
+li::before {
+  display: inline-block;
+  content: "\2022";
+  color: #2ce880;
+  line-height: 10px;
+  font-size: 30px;
+}
+h6 {
+  color: #24a0ed;
+}
+.vl {
+  border-left: 1px solid #dcdcdc;
+  height: 350px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 60px;
+}
+img {
+  max-width: 10%;
+  float: left;
+}
