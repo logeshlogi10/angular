@@ -1,0 +1,46 @@
+.container-fluid {
+  background-image: url("/assets/globe.png");
+  background-position: left;
+  background-size: 70% 80%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700px;
+}
+#adv {
+  float: right;
+}
+p {
+  float: right;
+}
+.card {
+  width: 30%;
+  float: right;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+#heading {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.div1 {
+  background-color: #6368bd;
+  color: #c4c7e4;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#desc {
+  color: black;
+  font-weight: bolder;
+}
+
+#circl {
+  background-color: #8383db;
+}
+#top {
+  font-style: italic;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-shadow: 2px 2px 5px aqua;
+}

@@ -1,0 +1,25 @@
+.fa-angle-down {
+  float: right;
+}
+.btn-light {
+  width: 100%;
+  text-align: justify;
+  color: black;
+  background-color: #d4eafa;
+}
+i {
+  color: #24a0ed;
+}
+.card {
+  margin-bottom: 10px;
+  background-color: #d4eafa;
+}
+.card-body {
+  background-color: white;
+}
+#faqs {
+  height: 50%;
+}
+#faqs h1 {
+  text-align: center;
+}

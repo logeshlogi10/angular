@@ -1,0 +1,51 @@
+.container {
+  margin-left: 30px;
+}
+.form-control-md {
+  width: 100%;
+  height: 50px;
+  font-weight: bold;
+}
+.custom-navbar-buttons p {
+  display: inline;
+  color: black;
+}
+.fa-bars {
+  float: right;
+  left: 18%;
+  position: relative;
+  font-size: larger;
+  margin-top: 8px;
+  color: #24a0ed;
+}
+
+.fa-plus {
+  float: left;
+  color: #24a0ed;
+  font-size: larger;
+  margin-top: 4px;
+}
+#searchBar {
+  float: right;
+  width: 20%;
+  position: relative;
+  right: 5%;
+}
+.fa-filter {
+  float: right;
+  position: relative;
+  right: 33%;
+  margin-top: 8px;
+  font-size: larger;
+  color: #24a0ed;
+}
+.fa-ellipsis-h {
+  position: relative;
+  font-size: larger;
+  left: 45%;
+  margin-top: 8px;
+}
+.table {
+  margin-left: 5%;
+  width: 90%;
+}
