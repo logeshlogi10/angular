@@ -1,0 +1,13 @@
+.fa-times {
+  float: right;
+}
+#mainCard {
+  background-color: #dcdcdc;
+}
+
+i {
+  display: inline-block;
+  margin: 0 35px 0 0;
+  font-size: large;
+  color: white;
+}

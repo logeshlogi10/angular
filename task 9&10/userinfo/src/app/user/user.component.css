@@ -1,0 +1,47 @@
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid#0275d8;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid #0275d8;
+}
+
+.card {
+  width: 50%;
+}
+a {
+  margin: 0 35px 0 0;
+}
+
+.test {
+  width: 140px;
+  height: 120px;
+  background-color: green;
+  position: relative;
+  margin-left: 6%;
+}
+.col-md-8 {
+  margin-left: 25%;
+}
+i {
+  margin: 0 35px 0 0;
+  color: #0275d8;
+}
+h1 {
+  color: white;
+}
+h3 {
+  margin-top: 40px;
+  margin-left: 7%;
+}
