@@ -1,0 +1,23 @@
+.form-control {
+  width: 60%;
+}
+.fa-angle-left {
+  margin-left: 300px;
+  margin-right: 20px;
+}
+.fa-angle-right {
+  margin-left: 20px;
+}
+#dropdownMenuButton5 {
+  background-color: orange;
+  color: white;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.container-fluid {
+  background-color: whitesmoke;
+}

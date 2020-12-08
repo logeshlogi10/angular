@@ -1,0 +1,84 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-5 mt-2"><h3>Instances<button type="button" class="btn btn-link">Info</button></h3></div>
+  <div class="col-1 mt-3"><i class="fa fa-repeat" aria-hidden="true"></i></div>
+  <div class="col-1 mt-3"><button type="button" class="btn btn-light ml-1" disabled>Connect</button></div>
+  <div class="col-1 mt-3">
+    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Instance state
+    </button>
+  </div>
+  <div class="col-1 mt-3 ml-5">
+    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Action
+    </button>
+  </div>
+  <div class="col-1 mt-3">
+    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Launch Instances
+    </button>
+  </div>
+  <div class="col-12 mb-3">
+
+    <form class="form-inline">
+      <i class="fa fa-search" aria-hidden="true"></i>
+      <input class="form-control form-control-sm ml-4 mt-2" type="text" placeholder="Filter instances" aria-label="Search">
+      <i class="fa fa-angle-left " aria-hidden="true"></i> 1 <i class="fa fa-angle-right" aria-hidden="true"></i>
+      <i class="fa fa-cog ml-4" aria-hidden="true"></i>
+    </form><br>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col"> <input type="checkbox"></th>
+          <th scope="col">Name <i class="fa fa-caret-down ml-5" aria-hidden="true"></i></th>
+          <th scope="col">Instance ID</th>
+          <th scope="col">Instance state <i class="fa fa-caret-down ml-5" aria-hidden="true"></i></th>
+          <th scope="col">Instance type <i class="fa fa-caret-down ml-5" aria-hidden="true"></i></th>
+          <th scope="col">Status check</th>
+          <th scope="col">Alarm status</th>
+         </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row"><input type="checkbox"></th>
+          <td>User 1</td>
+        <a class="stretched-link"><td >i-0fec77b5fe4b74fa8</td></a>
+          <td class="green"><i class="fa fa-check-circle" aria-hidden="true"></i> Running</td>
+          <td>t2.nano</td>
+          <td class="green"><i class="fa fa-check-circle" aria-hidden="true"></i> 2/2 checks ...</td>
+
+          <td>No alarms <i class="fa fa-plus" aria-hidden="true"></i></td>
+        </tr>
+        <tr>
+          <th scope="row"><input type="checkbox"></th>
+          <td>User 2</td>
+        <a class="stretched-link"><td >i-097d524be4000609d</td></a>
+          <td class="red"><i class="fa fa-minus-circle" aria-hidden="true"></i> Stopped</td>
+          <td>t2.large</td>
+          <td>-</td>
+          <td>No alarms <i class="fa fa-plus" aria-hidden="true"></i></td>
+        </tr>
+        <tr>
+          <th scope="row"><input type="checkbox"></th>
+          <td></td>
+         <a class="stretched-link"><td >i-06188be1aa294c878</td></a>
+          <td class="red"><i class="fa fa-minus-circle" aria-hidden="true"></i> Stopped</td>
+          <td>t3.large</td>
+          <td>-</td>
+          <td>No alarms <i class="fa fa-plus" aria-hidden="true"></i></td>
+        </tr>
+        <tr>
+        <th scope="row"><input type="checkbox"></th>
+          <td></td>
+         <a class="stretched-link"><td>i-0f319d19d2ab0710</td></a>
+          <td class="red"><i class="fa fa-minus-circle" aria-hidden="true"></i> Stopped</td>
+          <td>t3.medium</td>
+          <td>-</td>
+          <td>No alarms <i class="fa fa-plus " aria-hidden="true"></i></td>
+      </tr>
+      </tbody>
+    </table>
+
+  </div>
+  </div>
+  </div>
